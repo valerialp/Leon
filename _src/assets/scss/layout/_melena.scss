@@ -6,8 +6,11 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 30%;
 
 }
+
+//cabeza melena
 
 .mechon1{
     height:24px;
@@ -64,4 +67,105 @@
     left:65%;
     transform:translate(-19%, -100%)rotate(26deg);
     box-shadow: inset 1px 0px 0px 0px $colorSombraMelena;
+}
+
+//main melena
+
+.mechon__superior{
+    height: 125px;
+    width: 170px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeMelena;
+    position:absolute;
+    left: 25%;
+    top: -10%;
+    box-shadow: inset 0px 6px 6px 0px $colorSombraMelena;
+    z-index: 7;
+
+    &::after{
+        content: '';
+        height: 50px;
+        width: 50px;
+        background-color: $colorSecondary;
+        border-radius:100%;
+        border-left: 2px solid $colorBordeMelena;
+        box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 70%;
+        z-index: 3;
+    }
+}
+.block1{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius:100%;
+    border-left: .5px solid $colorBordeMelena;
+    transform: rotate(-28deg);
+    position: absolute;
+    left: 90%;
+    z-index: 4;
+}
+
+.block2{
+    content: '';
+    height: 45px;
+    width: 40px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-right: .5px solid $colorBordeMelena;
+    box-shadow: inset -3px 0px 0px 0px $colorSombraMelena;
+    transform: rotate(15deg);
+    position: absolute;
+    left: 77%;
+    top:32%;
+    z-index: 6;
+}
+.block3{
+    height: 80px;
+    width: 125px;
+    transform: rotate(35deg);
+    border-radius: 80%;
+    background-color: $colorSecondary;
+    border-top: 1px solid $colorBordeMelena;
+    box-shadow: inset 0px 4px 4px 0px $colorSombraMelena;
+    position: absolute;
+    top: 43%;
+    left: 75%;
+    z-index: 5;
+}
+
+.mechon__derecho{
+
+    &::after{
+        content:'';
+        height: 50px;
+        width: 50px;
+        transform: rotate(15deg);
+        border-radius: 80%;
+        background-color: $colorSecondary;
+        border-right: 1px solid $colorBordeMelena;
+        border-top: .4px solid $colorBordeMelena;
+        position: absolute;
+        top: 10%;
+        left: 90%;
+        z-index: 7;
+    }
+}
+
+.block4{
+    height: 40px;
+    width: 40px;
+    transform: rotate(20deg);
+    border-radius: 80%;
+    background-color: #fff;
+    border-bottom: .5px solid $colorBordeMelena;
+    position: absolute;
+    top: 3.5%;
+    left: 92.5%;
+    z-index: 8;
+ 
 }
