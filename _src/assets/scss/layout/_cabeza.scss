@@ -95,7 +95,8 @@
     top:45%;
     transform:translate(-50%, -100%) rotate(35deg);
     background-color: $colorOjo;
-    box-shadow: inset 4px 4px 20px $colorSombraOjos;
+    box-shadow: inset 5px 1px 6px $colorSombraOjos;
+    /*border:.5px solid black;*/
 }
 
 .pupilaD{
@@ -118,7 +119,8 @@
     top:45%;
     transform:translate(-50%, -100%) rotate(-35deg);
     background-color: $colorOjo;
-    box-shadow: inset 4px 4px 20px $colorSombraOjos;
+    box-shadow: inset 4px 5px 6px $colorSombraOjos;
+    /*border:.5px solid black;*/
 }
 
 .pupilaI{
