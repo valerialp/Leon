@@ -1,0 +1,175 @@
+.cabeza{
+    height:250px;
+    width:150px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+.craneo{
+    height:90px;
+    width:105px;
+    border-radius:100px;
+    border-top:2px solid $colorBordeCuerpo;
+    border-left:2px solid $colorBordeCuerpo;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -100%);
+    background-color: $colorPrimary;
+    box-shadow: inset 8px 4px 20px $colorSombraCuerpo;
+}
+
+.mandibula{
+    height:100px;
+    width: 90px;
+    border-radius:90px;
+    border-bottom: 2px solid $colorBordeCuerpo;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -40%);
+    background-color: $colorPrimary;
+    box-shadow: inset 8px -4px 15px -2px $colorSombraCuerpo;
+}
+
+.narizD{
+    height:20px;
+    width: 30px;
+    border-radius:90%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-25%, 100%) rotate(-15deg);
+    background-color: $colorNariz;
+    box-shadow: inset 0px 2px 20px $colorSombraNariz;
+}
+.narizI{
+    height:20px;
+    width: 30px;
+    border-radius:90%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-70%, 100%) rotate(15deg);
+    background-color: $colorNariz;
+    box-shadow: inset 6px 0 20px $colorSombraNariz;
+}
+
+.ojoD{
+    height:35px;
+    width: 25px;
+    border-radius:80%;
+    position:absolute;
+    left:65%;
+    top:45%;
+    transform:translate(-50%, -100%) rotate(35deg);
+    background-color: $colorOjo;
+    box-shadow: inset 4px 4px 20px $colorSombraOjos;
+}
+
+.pupilaD{
+    height:18px;
+    width: 12px;
+    border-radius:100%;
+    position:absolute;
+    left:65%;
+    top:43%;
+    transform:translate(-70%, -100%);
+    background-color: $colorPupila;
+}
+
+.ojoI{
+    height:35px;
+    width: 25px;
+    border-radius:80%;
+    position:absolute;
+    left:35%;
+    top:45%;
+    transform:translate(-50%, -100%) rotate(-35deg);
+    background-color: $colorOjo;
+    box-shadow: inset 4px 4px 20px $colorSombraOjos;
+}
+
+.pupilaI{
+    height:18px;
+    width: 12px;
+    border-radius:100%;
+    position:absolute;
+    left:35%;
+    top:43%;
+    transform:translate(-30%, -100%);
+    background-color: $colorPupila;
+}
+
+.orejaD{
+    height:34px;
+    width: 37px;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeCuerpo;
+    border-left: 2px solid $colorBordeCuerpo;
+    position:absolute;
+    top:15%;
+    transform:translate(20%, -100%);
+    background-color: $colorPrimary;
+    box-shadow: inset 6px 4px 20px $colorSombraCuerpo;
+
+   /* &::after{
+        content:'';
+        position: absolute;
+        top: 35%;
+        left: 45%;
+        width: 0;
+        height: 0;
+        border-bottom-left-radius: 50px;
+        border-style: solid;
+        border-width: 0px 15px 15px 15px;
+        border-color:$colorSecondary;
+        box-shadow: 0px 0px 20px 0px $colorSombraCuerpo;
+        transform: rotate(100deg);
+    }*/
+}
+
+.mechon1{
+    height:24px;
+    width: 9px;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeMelena;
+    border-left: 2px solid $colorBordeMelena;
+    position:absolute;
+    top:12%;
+    left:5%;
+    transform:translate(280%, -100%)rotate(-10deg);
+    background-color: $colorSecondary;
+    box-shadow: inset 0px 2px 10px 0px $colorSombraMelena;
+}
+
+.mechon2{
+    height: 20px;
+    width: 50px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeMelena;
+    border-left: 2px solid $colorBordeMelena;
+    position:absolute;
+    top:17%;
+    left:4%;
+    transform:translate(-19%, -100%)rotate(-10deg);
+    box-shadow: inset 0px 1px 9px 0px $colorSombraMelena;
+
+}
+
+.orejaI{
+    height:34px;
+    width: 37px;
+    border-radius:100%;
+    border-top:2px solid $colorBordeCuerpo;
+    border-left:2px solid $colorBordeCuerpo;
+    position:absolute;
+    left: 85%;
+    top:15%;
+    transform:translate(-70%, -100%);
+    background-color: $colorPrimary;
+    box-shadow: inset 6px 4px 20px $colorSombraCuerpo;
+}
