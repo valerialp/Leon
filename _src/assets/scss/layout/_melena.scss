@@ -97,7 +97,7 @@
         z-index: 3;
     }
 }
-.block1{
+.blockW1{
     content: '';
     height: 50px;
     width: 50px;
@@ -138,6 +138,51 @@
     z-index: 5;
 }
 
+.block4{
+    height: 15px;
+    width: 115px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeMelena;
+    border-right: 2px solid $colorBordeMelena;
+    position:absolute;
+    left: 25%;
+    top: -7%;
+    box-shadow: inset 2px 6px 6px 0px $colorSombraMelena;
+    transform: rotate(-10deg);
+   
+}
+
+.block5{
+    height: 15px;
+    width: 48px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-bottom: 2px solid $colorBordeMelena;
+    border-right: 2px solid $colorBordeMelena;
+    position:absolute;
+    left: 65%;
+    top: -11%;
+    transform: rotate(-18deg);
+    box-shadow: inset -5px 3px 6px 5px $colorSombraMelena;
+    z-index: 3;
+    
+}
+
+.blockW6{
+    height: 25px;
+    width: 35px;
+    background-color: #fff;
+    border-bottom-right-radius:30%;
+    border-bottom: 2px solid $colorBordeMelena;
+    position:absolute;
+    left: 70%;
+    top: -32.3%;
+    transform: rotate(-10deg);
+    z-index:3 ;
+}
+
+
 .mechon__derecho{
 
     &::after{
@@ -156,7 +201,7 @@
     }
 }
 
-.block4{
+.block7{
     height: 40px;
     width: 40px;
     transform: rotate(20deg);
@@ -168,4 +213,57 @@
     left: 92.5%;
     z-index: 8;
  
+}
+
+.blockW8{
+    height: 20px;
+    width: 50px;
+    transform: rotate(14deg);
+    border-radius: 80%;
+    background-color: #fff;
+    border-bottom: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: -1%;
+    left: 13%;
+    z-index: 5;
+}
+.block9{
+    height: 20px;
+    width: 50px;
+    transform: rotate(45deg);
+    border-radius: 80%;
+    background-color: $colorSecondary;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 2%;
+    left: 12%;
+    box-shadow: inset 5px -4px 6px 0px $colorSombraMelena;
+    z-index: 4;
+}
+
+.blockW10{
+    height: 30px;
+    width: 70px;
+    transform: rotate(45deg);
+    border-radius: 80%;
+    background-color: #fff;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: -1%;
+    left: 6%;
+    z-index: 3;
+}
+
+.block11{
+    height: 30px;
+    width: 150px;
+    transform: rotate(90deg);
+    border-radius: 80%;
+    background-color: $colorSecondary;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 11%;
+    left: -13%;
+    box-shadow: inset 5px -4px 6px 3px $colorSombraMelena;
+
 }
