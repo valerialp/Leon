@@ -7,7 +7,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 30%;
-
+    box-shadow: inset 25px -100px 0px 0px white;
+    z-index: -5;
 }
 
 //cabeza melena
@@ -85,7 +86,7 @@
 
     &::after{
         content: '';
-        height: 50px;
+        height: 80px;
         width: 50px;
         background-color: $colorSecondary;
         border-radius:100%;
@@ -93,7 +94,8 @@
         box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
         transform: rotate(90deg);
         position: absolute;
-        left: 70%;
+        left: 79%;
+        top:-12%;
         z-index: 3;
     }
 }
@@ -154,32 +156,44 @@
 }
 
 .block5{
-    height: 15px;
-    width: 48px;
+    height: 25px;
+    width: 78px;
     background-color: $colorSecondary;
     border-radius:100%;
     border-bottom: 2px solid $colorBordeMelena;
     border-right: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 65%;
-    top: -11%;
-    transform: rotate(-18deg);
-    box-shadow: inset -5px 3px 6px 5px $colorSombraMelena;
-    z-index: 3;
-    
+    left: 60%;
+    top: -20%;
+    transform: rotate(-30deg);
+    z-index: 4;
+    box-shadow: inset -21px 4px 9px 0px $colorSombraMelena;
+
+}
+.blockP18{
+    height: 27px;
+    width: 28px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    position:absolute;
+    left: 61%;
+    top: -2%;
+    transform: rotate(-30deg);
+    z-index: 1;
 }
 
 .blockW6{
-    height: 25px;
-    width: 35px;
+    height: 18px;
+    width: 70px;
     background-color: #fff;
-    border-bottom-right-radius:30%;
+    border-bottom-right-radius:100%;
     border-bottom: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 70%;
-    top: -32.3%;
-    transform: rotate(-10deg);
-    z-index:3 ;
+    left: 65%;
+    top: -26.5%;
+    transform: rotate(-7deg);
+    z-index:4 ;
+    box-shadow: 0px 5px 2px 0px $colorSombraMelena;
 }
 
 
@@ -249,21 +263,91 @@
     background-color: #fff;
     border-bottom: 2px solid $colorBordeMelena;
     position: absolute;
-    top: -1%;
-    left: 6%;
+    top: -1.8%;
+    left: 3.8%;
     z-index: 3;
 }
 
 .block11{
-    height: 30px;
-    width: 150px;
-    transform: rotate(90deg);
+    height: 80px;
+    width: 170px;
+    transform: rotate(78deg);
     border-radius: 80%;
     background-color: $colorSecondary;
     border-bottom: 2px solid $colorBordeMelena;
     position: absolute;
-    top: 11%;
-    left: -13%;
-    box-shadow: inset 5px -4px 6px 3px $colorSombraMelena;
+    top: 5.5%;
+    left: -12%;
+    box-shadow: inset 5px -4px 6px 1px $colorSombraMelena;
+}
+.block12{
+    height: 70px;
+    width: 100px;
+    transform: rotate(-65deg);
+    border-radius: 80%;
+    background-color: $colorSecondary;
+    border-top: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 30.3%;
+    left: 1.4%;
+    box-shadow: inset 0px 3px 2px 0px $colorSombraMelena;
+}
+.block17{
+    height: 20px;
+    width: 10px;
+    transform: rotate(-32deg);
+    border-bottom-right-radius: 17%;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: 46%;
+    left: 5%;
+    z-index: 3;
+}
+.block13{
+    height: 65px;
+    width: 65px;
+    transform: rotate(32deg);
+    border-radius: 80%;
+    background-color:#fff;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 45%;
+    left: -9%;
+    box-shadow: 5px 0px 2px 0px $colorSombraMelena;
+}
+.block14{
+    height: 70px;
+    width: 70px;
+    transform: rotate(0deg);
+    border-radius: 80%;
+    background-color:$colorSecondary;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 49%;
+    left: -3.5%;
+    z-index: -1;
+}
 
+.block15{
+    height: 60px;
+    width: 60px;
+    transform: rotate(0deg);
+    border-radius: 80%;
+    background-color:$colorSecondary;
+    border-left: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 58%;
+    left: 11%;
+}
+.blockW16{
+    height: 60px;
+    width: 60px;
+    transform: rotate(0deg);
+    border-radius: 80%;
+    background-color:$colorSecondary;
+    border-left: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 58%;
+    left: 11%;
 }
