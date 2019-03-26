@@ -3,12 +3,12 @@
     width: 100px;
     transform: rotate(-65deg);
     border-radius: 80%;
-    background-color: $colorSecondary;
     border-top: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px 3px 2px 0px $colorSombraMelena;
+    background-color: $colorSecondary;
     position: absolute;
     top: 30.3%;
     left: 1.4%;
-    box-shadow: inset 0px 3px 2px 0px $colorSombraMelena;
 }
 
 .lock4{
@@ -16,8 +16,8 @@
     width: 10px;
     transform: rotate(-32deg);
     border-bottom-right-radius: 17%;
-    background-color: rgb(255, 255, 255);
     border-right: 1px solid $colorBordeMelena;
+    background-color: $colorBackground;
     position: absolute;
     top: 46%;
     left: 5%;
@@ -29,12 +29,12 @@
     width: 65px;
     transform: rotate(32deg);
     border-radius: 80%;
-    background-color:#fff;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: 5px 1px 2px 0px $colorSombraMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 45%;
     left: -9%;
-    box-shadow: 5px 1px 2px 0px $colorSombraMelena;
 }
 
 .lock6{
@@ -42,28 +42,25 @@
     width: 70px;
     transform: rotate(10deg);
     border-radius: 80%;
-    background-color:$colorSecondary;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: inset 5px -5px 4px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 50%;
     left: -5%;
     z-index: -1;
-    box-shadow: inset 5px -5px 4px 0px $colorSombraMelena;
-
 }
 
 .lock7{
     height: 60px;
     width: 60px;
-    transform: rotate(0deg);
     border-radius: 80%;
-    background-color:$colorSecondary;
     border-left: 2px solid $colorBordeMelena;
+    box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 58%;
     left: 11%;
-    box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
-
 }
 
 .background3{
@@ -71,9 +68,9 @@
     width: 40px;
     transform: rotate(60deg);
     border-radius: 80%;
-    background-color:#fff;
     border-left: 1px solid $colorBordeMelena;
     border-top: 1px solid $colorBordeMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 64%;
     left: 16%;
@@ -84,9 +81,9 @@
     width: 30px;
     transform: rotate(29deg);
     border-radius: 80%;
-    background-color:#fff;
     border-right: 1px solid $colorBordeMelena;
     border-top: 1px solid $colorBordeMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 64%;
     left: 15.9%;
@@ -98,14 +95,13 @@
     width: 35px;
     transform: rotate(28deg);
     border-radius: 80%;
-    background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px -9px 2px 2px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 63%;
     left: 17%;
     z-index: 2;
-    box-shadow: inset 0px -9px 2px 2px $colorSombraMelena;
-
 }
 
 .lock9{
@@ -114,8 +110,8 @@
     transform: rotate(-25deg);
     border-bottom-left-radius: 40%;
     border-top-left-radius: 45%;
-    background-color:$colorSecondary;
     border-left: 2px solid $colorBordeMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 63.3%;
     left: 29.3%;
@@ -126,8 +122,8 @@
     width: 45px;
     transform: rotate(-38deg);
     border-bottom-right-radius: 100%;
-    background-color:#fff;
     border-right: 2px solid $colorBordeMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 77.8%;
     left: 25.8%;
@@ -140,13 +136,13 @@
     transform: rotate(27deg);
     border-top-right-radius: 70%;
     border-bottom-right-radius: 100%;
-    background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 84%;
     left: 33%;
     z-index: 2;
-    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
 }
 
 .background6{
@@ -154,8 +150,8 @@
     width: 30px;
     transform: rotate(-15deg);
     border-radius: 70%;
-    background-color:#fff;
     border-right: 2px solid $colorBordeMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 84%;
     left: 35%;
@@ -167,12 +163,12 @@
     width: 65px;
     transform: rotate(45deg);
     border-radius: 100%;
-    background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset -7px 0px 5px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 71%;
     left: 38%;
-    box-shadow: inset -7px 0px 5px 0px $colorSombraMelena;
 }
 
 .background7{
@@ -180,8 +176,8 @@
     width: 45px;
     transform: rotate(-40deg);
     border-radius: 100%;
-    background-color:#fff;
     border-right: 2px solid $colorBordeMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 78%;
     left: 50%;
@@ -193,13 +189,13 @@
     width: 50px;
     transform: rotate(20deg);
     border-radius: 100%;
-    background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px -10px 4px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 69.8%;
     left: 58.7%;
     z-index: -2;
-    box-shadow: inset 0px -10px 4px 0px $colorSombraMelena;
 }
 
 .lock13{
@@ -207,14 +203,14 @@
     width: 50px;
     transform: rotate(-60deg);
     border-radius: 100%;
-    background-color:$colorSecondary;
     border-left: 2px solid $colorBordeMelena;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px -6px 3px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 64.5%;
     left: 72%;
     z-index: -3;
-    box-shadow: inset 0px -6px 3px 0px $colorSombraMelena;
 }
 
 .background8{
@@ -222,26 +218,25 @@
     width: 35px;
     transform: rotate(-40deg);
     border-radius: 100%;
-    background-color:#fff;
     border-left: 1px solid $colorBordeMelena;
     border-top: 2px solid $colorBordeMelena;
     border-right: 1px solid $colorBordeMelena;
+    box-shadow: 5px 0px 5px 0px $colorSombraMelena;
+    background-color:$colorBackground;
     position: absolute;
     top: 64.5%;
     left: 80%;
-    box-shadow: 5px 0px 5px 0px $colorSombraMelena;
 }
 
 .lock14{
     height: 70px;
     width: 35px;
-    transform: rotate(0deg);
     border-radius: 100%;
-    background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px -6px 5px 0px $colorSombraMelena;
+    background-color:$colorSecondary;
     position: absolute;
     top: 60.5%;
     left: 86%;
     z-index: -2;
-    box-shadow: inset 0px -6px 5px 0px $colorSombraMelena;
 }

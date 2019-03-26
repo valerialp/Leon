@@ -3,8 +3,8 @@
     width: 50px;
     transform: rotate(14deg);
     border-radius: 80%;
-    background-color: #fff;
     border-bottom: 1px solid $colorBordeMelena;
+    background-color: $colorBackground;
     position: absolute;
     top: -1%;
     left: 13%;
@@ -16,12 +16,12 @@
     width: 50px;
     transform: rotate(45deg);
     border-radius: 80%;
-    background-color: $colorSecondary;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: inset 5px -4px 6px 0px $colorSombraMelena;
+    background-color: $colorSecondary;
     position: absolute;
     top: 2%;
     left: 12%;
-    box-shadow: inset 5px -4px 6px 0px $colorSombraMelena;
     z-index: 4;
 }
 
@@ -30,8 +30,8 @@
     width: 70px;
     transform: rotate(45deg);
     border-radius: 80%;
-    background-color: #fff;
     border-bottom: 2px solid $colorBordeMelena;
+    background-color: $colorBackground;
     position: absolute;
     top: -1.8%;
     left: 3.8%;
@@ -43,10 +43,10 @@
     width: 170px;
     transform: rotate(78deg);
     border-radius: 80%;
-    background-color: $colorSecondary;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: inset 5px -4px 6px 1px $colorSombraMelena;
+    background-color: $colorSecondary;
     position: absolute;
     top: 5.5%;
     left: -12%;
-    box-shadow: inset 5px -4px 6px 1px $colorSombraMelena;
 }
