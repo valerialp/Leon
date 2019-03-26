@@ -1,0 +1,35 @@
+.block32{
+    height: 30px;
+    width: 54px;
+    transform: rotate(10deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 55%;
+    left: 89%;
+}
+
+.blockW33{
+    height: 50px;
+    width: 65px;
+    transform: rotate(67deg);
+    border-radius: 100%;
+    background-color:#fff;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 48%;
+    left: 92%;
+}
+
+.block34{
+    height: 70px;
+    width: 105px;
+    transform: rotate(21deg);
+    border-top-right-radius: 50%;
+    background-color:$colorSecondary;
+    border-right: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: 32%;
+    left: 68.3%;
+}

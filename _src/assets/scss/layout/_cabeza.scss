@@ -34,28 +34,32 @@
     box-shadow: inset 8px -4px 15px -2px $colorSombraCuerpo;
 }
 
-.narizD{
-    height:20px;
-    width: 30px;
-    border-radius:90%;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-25%, 100%) rotate(-15deg);
-    background-color: $colorNariz;
-    box-shadow: inset 0px 2px 20px $colorSombraNariz;
-}
-.narizI{
-    height:20px;
-    width: 30px;
-    border-radius:90%;
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-70%, 100%) rotate(15deg);
-    background-color: $colorNariz;
-    box-shadow: inset 6px 0 20px $colorSombraNariz;
-    z-index: 5;;
+.nariz{
+    &::after{
+        content:'';
+        height:20px;
+        width: 30px;
+        border-radius:90%;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-25%, 100%) rotate(-15deg);
+        background-color: $colorNariz;
+        box-shadow: inset 0px 2px 20px $colorSombraNariz;
+    }
+    &::before{
+        content:'';
+        height:20px;
+        width: 30px;
+        border-radius:90%;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-70%, 100%) rotate(15deg);
+        background-color: $colorNariz;
+        box-shadow: inset 6px 0 20px $colorSombraNariz;
+        z-index: 1;
+    }
 }
 
 
