@@ -11,7 +11,7 @@
     z-index: -5;
 }
 
-//cabeza melena
+//Melena cara
 
 .mechon1{
     height:24px;
@@ -70,7 +70,7 @@
     box-shadow: inset 1px 0px 0px 0px $colorSombraMelena;
 }
 
-//main melena
+//Melena cabeza
 
 .mechon__superior{
     height: 125px;
@@ -86,16 +86,16 @@
 
     &::after{
         content: '';
-        height: 80px;
-        width: 50px;
+        height: 30px;
+        width: 60px;
         background-color: $colorSecondary;
         border-radius:100%;
-        border-left: 2px solid $colorBordeMelena;
-        box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
-        transform: rotate(90deg);
+        border-top: 2px solid $colorBordeMelena;
+        box-shadow: inset -15px 0px 3px 0px $colorSombraMelena;
+        transform: rotate(0deg);
         position: absolute;
-        left: 79%;
-        top:-12%;
+        left: 74%;
+        top:-3%;
         z-index: 3;
     }
 }
@@ -114,15 +114,15 @@
 
 .block2{
     content: '';
-    height: 45px;
-    width: 40px;
+    height: 40px;
+    width: 30px;
     background-color: $colorSecondary;
     border-radius:100%;
     border-right: .5px solid $colorBordeMelena;
-    box-shadow: inset -3px 0px 0px 0px $colorSombraMelena;
-    transform: rotate(15deg);
+    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
+    transform: rotate(25deg);
     position: absolute;
-    left: 77%;
+    left: 80.2%;
     top:32%;
     z-index: 6;
 }
@@ -189,31 +189,13 @@
     border-bottom-right-radius:100%;
     border-bottom: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 65%;
-    top: -26.5%;
+    left: 64.5%;
+    top: -26.1%;
     transform: rotate(-7deg);
     z-index:4 ;
     box-shadow: 0px 5px 2px 0px $colorSombraMelena;
 }
 
-
-.mechon__derecho{
-
-    &::after{
-        content:'';
-        height: 50px;
-        width: 50px;
-        transform: rotate(15deg);
-        border-radius: 80%;
-        background-color: $colorSecondary;
-        border-right: 1px solid $colorBordeMelena;
-        border-top: .4px solid $colorBordeMelena;
-        position: absolute;
-        top: 10%;
-        left: 90%;
-        z-index: 7;
-    }
-}
 
 .block7{
     height: 40px;
@@ -350,4 +332,68 @@
     position: absolute;
     top: 58%;
     left: 11%;
+}
+
+.blockW19{
+    height: 45px;
+    width: 40px;
+    transform: rotate(60deg);
+    border-radius: 80%;
+    background-color:#fff;
+    border-left: 1px solid $colorBordeMelena;
+    border-top: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: 64%;
+    left: 16%;
+}
+
+.blockW20{
+    height: 45px;
+    width: 30px;
+    transform: rotate(29deg);
+    border-radius: 80%;
+    background-color:#fff;
+    border-right: 1px solid $colorBordeMelena;
+    border-top: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: 64%;
+    left: 15.9%;
+    z-index: 3;
+}
+
+.block21{
+    height: 50px;
+    width: 35px;
+    transform: rotate(28deg);
+    border-radius: 80%;
+    background-color:$colorSecondary;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 63%;
+    left: 17%;
+    z-index: 2;
+}
+
+.block22{
+    height: 100px;
+    width: 35px;
+    transform: rotate(-25deg);
+    border-radius: 80%;
+    background-color:$colorSecondary;
+    border-left: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 63%;
+    left: 29%;
+}
+
+.blockW23{
+    height: 80px;
+    width: 35px;
+    transform: rotate(-38deg);
+    border-bottom-right-radius: 100%;
+    background-color:#fff;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 77.8%;
+    left: 28.7%;
 }
