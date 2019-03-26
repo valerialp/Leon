@@ -8,7 +8,7 @@
     transform: translate(-50%, -50%);
     border-radius: 30%;
     box-shadow: inset 25px -100px 0px 0px white;
-    z-index: -5;
+    z-index: -10;
 }
 
 //Melena cara
@@ -373,37 +373,39 @@
     height: 100px;
     width: 35px;
     transform: rotate(-25deg);
-    border-radius: 80%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 45%;
     background-color:$colorSecondary;
     border-left: 2px solid $colorBordeMelena;
     position: absolute;
-    top: 63%;
-    left: 29%;
+    top: 63.3%;
+    left: 29.3%;
 }
 
 .blockW23{
     height: 80px;
-    width: 35px;
+    width: 45px;
     transform: rotate(-38deg);
     border-bottom-right-radius: 100%;
     background-color:#fff;
     border-right: 2px solid $colorBordeMelena;
     position: absolute;
     top: 77.8%;
-    left: 28.7%;
+    left: 25.8%;
     z-index: 3;
 }
 
 .block24{
-    height: 65px;
+    height: 55px;
     width: 30px;
-    transform: rotate(10deg);
-    border-radius: 100%;
+    transform: rotate(27deg);
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 100%;
     background-color:$colorSecondary;
     border-right: 2px solid $colorBordeMelena;
     position: absolute;
-    top: 82%;
-    left: 32%;
+    top: 84%;
+    left: 33%;
     z-index: 2;
     box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
 }
@@ -431,5 +433,75 @@
     position: absolute;
     top: 71%;
     left: 38%;
-    box-shadow: inset -7px 0px 2px 0px $colorSombraMelena;
+    box-shadow: inset -7px 0px 5px 0px $colorSombraMelena;
+}
+
+.blockW27{
+    height: 50px;
+    width: 45px;
+    transform: rotate(-40deg);
+    border-radius: 100%;
+    background-color:#fff;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    z-index: -1;
+}
+
+.block28{
+    height: 80px;
+    width: 50px;
+    transform: rotate(20deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 69.8%;
+    left: 58.7%;
+    z-index: -2;
+    box-shadow: inset 0px -10px 4px 0px $colorSombraMelena;
+}
+
+.block29{
+    height: 80px;
+    width: 50px;
+    transform: rotate(-60deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-left: 2px solid $colorBordeMelena;
+    border-bottom: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 64.5%;
+    left: 72%;
+    z-index: -3;
+    box-shadow: inset 0px -6px 3px 0px $colorSombraMelena;
+}
+
+.blockW30{
+    height: 60px;
+    width: 35px;
+    transform: rotate(-40deg);
+    border-radius: 100%;
+    background-color:#fff;
+    border-left: 1px solid $colorBordeMelena;
+    border-top: 2px solid $colorBordeMelena;
+    border-right: 1px solid $colorBordeMelena;
+    position: absolute;
+    top: 64.5%;
+    left: 79%;
+    box-shadow: 5px 0px 5px 0px $colorSombraMelena;
+}
+.block31{
+    height: 70px;
+    width: 35px;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 60.5%;
+    left: 86%;
+    z-index: -2;
+    box-shadow: inset 0px -6px 5px 0px $colorSombraMelena;
 }
