@@ -296,22 +296,24 @@
     position: absolute;
     top: 45%;
     left: -9%;
-    box-shadow: 5px 0px 2px 0px $colorSombraMelena;
+    box-shadow: 5px 1px 2px 0px $colorSombraMelena;
 }
 .block14{
     height: 70px;
     width: 70px;
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     border-radius: 80%;
     background-color:$colorSecondary;
     border-bottom: 2px solid $colorBordeMelena;
     position: absolute;
-    top: 49%;
-    left: -3.5%;
+    top: 50%;
+    left: -5%;
     z-index: -1;
+    box-shadow: inset 5px -5px 4px 0px $colorSombraMelena;
+
 }
 
-.block15{
+.block16{
     height: 60px;
     width: 60px;
     transform: rotate(0deg);
@@ -321,17 +323,8 @@
     position: absolute;
     top: 58%;
     left: 11%;
-}
-.blockW16{
-    height: 60px;
-    width: 60px;
-    transform: rotate(0deg);
-    border-radius: 80%;
-    background-color:$colorSecondary;
-    border-left: 2px solid $colorBordeMelena;
-    position: absolute;
-    top: 58%;
-    left: 11%;
+    box-shadow: inset 4px 0px 4px 0px $colorSombraMelena;
+
 }
 
 .blockW19{
@@ -372,6 +365,8 @@
     top: 63%;
     left: 17%;
     z-index: 2;
+    box-shadow: inset 0px -9px 2px 2px $colorSombraMelena;
+
 }
 
 .block22{
@@ -396,4 +391,17 @@
     position: absolute;
     top: 77.8%;
     left: 28.7%;
+    z-index: 2;
+}
+
+.block24{
+    height: 65px;
+    width: 30px;
+    transform: rotate(10deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 82%;
+    left: 32%;
 }
