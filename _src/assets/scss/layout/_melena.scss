@@ -391,7 +391,7 @@
     position: absolute;
     top: 77.8%;
     left: 28.7%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .block24{
@@ -404,4 +404,32 @@
     position: absolute;
     top: 82%;
     left: 32%;
+    z-index: 2;
+    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
+}
+
+.blockW25{
+    height: 45px;
+    width: 30px;
+    transform: rotate(-15deg);
+    border-radius: 70%;
+    background-color:#fff;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 84%;
+    left: 35%;
+    z-index: 1;
+}
+
+.block26{
+    height: 110px;
+    width: 65px;
+    transform: rotate(45deg);
+    border-radius: 100%;
+    background-color:$colorSecondary;
+    border-right: 2px solid $colorBordeMelena;
+    position: absolute;
+    top: 71%;
+    left: 38%;
+    box-shadow: inset -7px 0px 2px 0px $colorSombraMelena;
 }
