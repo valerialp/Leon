@@ -1,0 +1,29 @@
+.correct1{
+    height: 40px;
+    width: 40px;
+    background-color: $colorBackground;
+    position: absolute;
+    top: 26%;
+    left: 4%;
+    z-index: -1;
+}
+
+.correct2{
+    height: 40px;
+    width: 40px;
+    background-color: $colorBackground;
+    position: absolute;
+    top: 69%;
+    left: 20%;
+    z-index: -1;
+}
+
+.correct3{
+    height: 50px;
+    width: 50px;
+    background-color: $colorBackground;
+    position: absolute;
+    top: 60%;
+    left:90%;
+    z-index: -3;
+}
