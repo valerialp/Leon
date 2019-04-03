@@ -1,0 +1,11 @@
+.body1{
+    height: 50px;
+    width: 50px;
+    transform: rotate(15deg);
+    border-left: 2px solid $colorBordeCuerpo;
+    background-color: $colorPrimary;
+    position: absolute;
+    top: 67%;
+    left:25%;
+    z-index: -1;
+}

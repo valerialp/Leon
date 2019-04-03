@@ -7,29 +7,44 @@
     background-color:$colorSecondary;
     position: absolute;
     top: 55%;
-    left: 89%;
+    left: 85%;
 }
 
 .background9{
-    height: 50px;
+    height: 45px;
     width: 65px;
-    transform: rotate(67deg);
+    transform: rotate(63deg);
     border-radius: 100%;
     border-bottom: 2px solid $colorBordeMelena;
     background-color:$colorBackground;
     position: absolute;
     top: 48%;
-    left: 92%;
+    left: 88%;
 }
 
 .lock16{
     height: 70px;
     width: 105px;
-    transform: rotate(21deg);
+    transform: rotate(19deg);
     border-top-right-radius: 50%;
-    border-right: 1px solid $colorBordeMelena;
+    border-right: 2px solid $colorBordeMelena;
     background-color:$colorSecondary;
     position: absolute;
     top: 32%;
-    left: 68.3%;
+    left: 63.9%;
 }
+
+.lock17{
+    height: 70px;
+    width: 70px;
+    transform: rotate(40deg);
+    border-radius: 47%;
+    border-bottom-right-radius: 50%;
+    border-right: 2px solid $colorBordeMelena;
+    background-color:$colorSecondary;
+    position: absolute;
+    top: 21%;
+    left: 78%;
+    z-index: -1;
+}
+

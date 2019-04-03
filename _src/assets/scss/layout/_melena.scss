@@ -69,49 +69,45 @@
     left: 25%;
     top: -10%;
     box-shadow: inset 0px 6px 6px 0px $colorSombraMelena;
-    z-index: 7;
-
-    &::after{
-        content: '';
-        height: 30px;
-        width: 60px;
-        background-color: $colorSecondary;
-        border-radius:100%;
-        border-top: 2px solid $colorBordeMelena;
-        box-shadow: inset -15px 0px 3px 0px $colorSombraMelena;
-        transform: rotate(0deg);
-        position: absolute;
-        left: 74%;
-        top:-3%;
-        z-index: 3;
-    }
+    z-index: 6;
+}
+.block{
+    height: 50px;
+    width: 90px;
+    background-color: $colorSecondary;
+    border-radius:100%;
+    border-top: 2px solid $colorBordeMelena;
+    box-shadow: inset -5px 5px 3px 0px $colorSombraMelena;
+    transform: rotate(10deg);
+    position: absolute;
+    left: 58%;
+    top:-10%;
+    z-index: 6;
 }
 .blockW1{
-    content: '';
-    height: 50px;
-    width: 50px;
-    background-color: #fff;
+    height: 49px;
+    width: 55px;
+    background-color: $colorBackground;
     border-radius:100%;
     border-left: .5px solid $colorBordeMelena;
-    transform: rotate(-28deg);
+    transform: rotate(10deg);
     position: absolute;
-    left: 90%;
-    z-index: 4;
+    left: 69%;
+    top: -9%;
+    z-index: 7;
 }
 
 .block2{
-    content: '';
     height: 40px;
-    width: 30px;
+    width: 40px;
     background-color: $colorSecondary;
     border-radius:100%;
     border-right: .5px solid $colorBordeMelena;
-    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
-    transform: rotate(25deg);
+    transform: rotate(0deg);
     position: absolute;
-    left: 80.2%;
-    top:32%;
-    z-index: 6;
+    left: 66.5%;
+    top:1%;
+    z-index: 8;
 }
 .block3{
     height: 80px;
@@ -122,8 +118,8 @@
     border-top: 1px solid $colorBordeMelena;
     box-shadow: inset 0px 4px 4px 0px $colorSombraMelena;
     position: absolute;
-    top: 43%;
-    left: 75%;
+    top: 4%;
+    left: 62%;
     z-index: 5;
 }
 
@@ -135,11 +131,11 @@
     border-top: 2px solid $colorBordeMelena;
     border-right: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 25%;
-    top: -7%;
+    left: 35%;
+    top: -10.8%;
     box-shadow: inset 2px 6px 6px 0px $colorSombraMelena;
     transform: rotate(-10deg);
-   
+    z-index: 6;
 }
 
 .block5{
@@ -150,51 +146,24 @@
     border-bottom: 2px solid $colorBordeMelena;
     border-right: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 60%;
-    top: -20%;
+    left: 50%;
+    top: -14%;
     transform: rotate(-30deg);
-    z-index: 4;
+    z-index: 6;
     box-shadow: inset -21px 4px 9px 0px $colorSombraMelena;
 
-}
-.blockP18{
-    height: 27px;
-    width: 28px;
-    background-color: $colorSecondary;
-    border-radius:100%;
-    position:absolute;
-    left: 61%;
-    top: -2%;
-    transform: rotate(-30deg);
-    z-index: 1;
 }
 
 .blockW6{
     height: 18px;
     width: 70px;
-    background-color: #fff;
+    background-color: $colorBackground;
     border-bottom-right-radius:100%;
     border-bottom: 2px solid $colorBordeMelena;
     position:absolute;
-    left: 64.5%;
-    top: -26.1%;
+    left: 52%;
+    top: -16%;
     transform: rotate(-7deg);
-    z-index:4 ;
+    z-index:6 ;
     box-shadow: 0px 5px 2px 0px $colorSombraMelena;
 }
-
-
-.block7{
-    height: 40px;
-    width: 40px;
-    transform: rotate(20deg);
-    border-radius: 80%;
-    background-color: #fff;
-    border-bottom: .5px solid $colorBordeMelena;
-    position: absolute;
-    top: 3.5%;
-    left: 92.5%;
-    z-index: 8;
- 
-}
-
