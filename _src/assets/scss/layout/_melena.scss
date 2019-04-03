@@ -85,42 +85,44 @@
     z-index: 6;
 }
 .blockW1{
-    height: 49px;
-    width: 55px;
+    height: 50px;
+    width: 45px;
+    transform: rotate(-10deg);
     background-color: $colorBackground;
     border-radius:100%;
-    border-left: .5px solid $colorBordeMelena;
-    transform: rotate(10deg);
+    border-left: 1px solid $colorBordeMelena;
+    box-shadow: 0px 6px 4px 0px $colorSombraMelena;
     position: absolute;
-    left: 69%;
-    top: -9%;
+    left: 67%;
+    top: -10%;
     z-index: 7;
 }
 
 .block2{
-    height: 40px;
+    height: 48px;
     width: 40px;
     background-color: $colorSecondary;
     border-radius:100%;
-    border-right: .5px solid $colorBordeMelena;
-    transform: rotate(0deg);
+    border-right: 1.5px solid $colorBordeMelena;
+    box-shadow: inset -3px 0px 1px 0px $colorSombraMelena;
+    transform: rotate(-5deg);
     position: absolute;
-    left: 66.5%;
-    top:1%;
-    z-index: 8;
+    left: 64.8%;
+    top:0.65%;
+    z-index: 9;
 }
 .block3{
     height: 80px;
-    width: 125px;
-    transform: rotate(35deg);
+    width: 95px;
+    transform: rotate(25deg);
     border-radius: 80%;
     background-color: $colorSecondary;
-    border-top: 1px solid $colorBordeMelena;
+    border-top: 1.5px solid $colorBordeMelena;
     box-shadow: inset 0px 4px 4px 0px $colorSombraMelena;
     position: absolute;
-    top: 4%;
-    left: 62%;
-    z-index: 5;
+    top: 4.5%;
+    left: 64%;
+    z-index: 8;
 }
 
 .block4{

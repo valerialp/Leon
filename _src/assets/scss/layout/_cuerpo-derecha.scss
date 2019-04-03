@@ -1,4 +1,4 @@
-.body1{
+/*.body1{
     height: 50px;
     width: 50px;
     transform: rotate(15deg);
@@ -9,3 +9,28 @@
     left:25%;
     z-index: -1;
 }
+
+.body2{
+    height: 200px;
+    width: 200px;
+    transform: rotate(0deg);
+    border-radius: 80%;
+    border-left: 3px solid $colorBordeCuerpo;
+    background-color: $colorPrimary;
+    position: absolute;
+    top: 72%;
+    left:17%;
+    z-index: -4;
+}
+
+.background10{
+    height: 30px;
+    width: 30px;
+    transform: rotate(-80deg);
+    border-bottom-left-radius: 70%;
+    border-bottom: 3px solid $colorBordeCuerpo;
+    position: absolute;
+    top: 67%;
+    left:30.7%;
+}
+*/
