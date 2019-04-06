@@ -4,6 +4,7 @@
     transform: rotate(10deg);
     border-radius: 100%;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: inset 0px -3px 3px 0px $colorSombraMelena;
     background-color:$colorSecondary;
     position: absolute;
     top: 55%;
@@ -16,6 +17,7 @@
     transform: rotate(63deg);
     border-radius: 100%;
     border-bottom: 2px solid $colorBordeMelena;
+    box-shadow: 0px 3px 3px 0px $colorSombraMelena;
     background-color:$colorBackground;
     position: absolute;
     top: 48%;
@@ -23,28 +25,30 @@
 }
 
 .lock16{
-    height: 70px;
-    width: 105px;
-    transform: rotate(19deg);
+    height: 72px;
+    width: 70px;
+    transform: rotate(18deg);
     border-top-right-radius: 50%;
     border-right: 2px solid $colorBordeMelena;
+    box-shadow: inset -3px 0px 3px 0px $colorSombraMelena;
     background-color:$colorSecondary;
     position: absolute;
-    top: 32%;
-    left: 63.9%;
+    top: 33.8%;
+    left: 73.7%;
 }
 
 .lock17{
-    height: 70px;
-    width: 70px;
-    transform: rotate(40deg);
-    border-radius: 47%;
+    height: 48px;
+    width: 50px;
+    transform: rotate(33deg);
+    border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    border-right: 2px solid $colorBordeMelena;
+    border-right: 1.5px solid $colorBordeMelena;
+    box-shadow: inset -3px 0px 3px 0px $colorSombraMelena;
     background-color:$colorSecondary;
     position: absolute;
-    top: 21%;
-    left: 78%;
+    top: 26%;
+    left: 84.9%;
     z-index: -1;
 }
 
@@ -73,13 +77,13 @@
     background-color:$colorBackground;
     position: absolute;
     top: 6%;
-    left: 87%;
-    z-index: 11;
+    left: 86.9%;
+    z-index: 8;
 }
 
 .lock19{
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     transform: rotate(0deg);
     border-radius: 47%;
     border-bottom-right-radius: 50%;
@@ -87,7 +91,22 @@
     background-color:$colorSecondary;
     position: absolute;
     top: 17%;
-    left: 90%;
+    left: 94%;
+    z-index: 8;
+}
+
+.background12{
+    height: 54px;
+    width: 45px;
+    transform: rotate(40deg);
+    border-radius: 47%;
+    border-bottom-right-radius: 50%;
+    border-left: 2px solid $colorBordeMelena;
+    box-shadow: -3px 0px 1px 0px $colorSombraMelena;
+    background-color:$colorBackground;
+    position: absolute;
+    top: 19.5%;
+    left: 98%;
     z-index: 8;
 }
 
